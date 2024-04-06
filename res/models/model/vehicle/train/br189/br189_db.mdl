@@ -169,7 +169,7 @@ return {
 			visibleFrom = 0,
 			visibleTo = 100,
 		},		
-[[
+---[[
 		{
 			node = {
 				children = {
