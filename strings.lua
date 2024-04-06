@@ -2,7 +2,7 @@ function data()
 return {
 	en = {
 
-		["mod_name"] = "Siemens Vectron MS and AC",
+		["mod_name"] = "Siemens ES 64 F4 BR 189",
 		["mod_desc"] = "The Vectron is a modern three-phase locomotive for international passenger and freight transport in Europe. The Vectron can operate in 20 European countries. The Vectron was first presented to the public in 2010, and since then the locomotive has been in use on many state and private railways. The package contains the locomotives class 193 MS (multi-system), class 193 AC (alternating current) and the Smartron.",
 
         ["br193_ms_menu"] = "Vectron class 193 MS",
@@ -433,7 +433,7 @@ return {
 	},
 	de = {
 
-		["mod_name"] = "Siemens Vectron MS und AC",
+		["mod_name"] = "Siemens ES 64 F4 BR 189",
 		["mod_desc"] = "Der Vectron ist eine moderene Drehstromlokomotive für den Internationalen Personen- und Güterverkehr in Europa. Der Vectron kann in 20 europäischen Ländern verkehren. Erstmal wurde der Vectron im Juli 2010 der Öffentlichkeit vorgestellt, seitdem ist die Lok bei vielen Staats- und Privatbahnen im Einsatz. In dem Paket sind die Loks BR 193 MS (Mehrsystem), BR 193 AC (Wechselstrom) und der Smartron enthalten. ",
 
         ["br193_ms_menu"] = "Vectron BR 193 MS",
