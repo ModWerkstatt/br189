@@ -712,14 +712,14 @@ return {
 				},
 --[[
 				{
-					axles = { "vehicle/train/br189/radsatz_lod1.msh", },
+					axles = { "vehicle/train/br189/rad_lod1.msh", },
 					backBackwardParts = { 28 },
 					backForwardParts = { 26 },
 					frontBackwardParts = { 27 },
 					frontForwardParts = { 25 },
 				},
 				{
-					axles = { "vehicle/train/br189/radsatz_lod2.msh", },
+					axles = { "vehicle/train/br189/rad_lod2.msh", },
 					backBackwardParts = { 24 },
 					backForwardParts = { 22 },
 					frontBackwardParts = { 23 },
@@ -735,14 +735,14 @@ return {
 				},
 			},
 			soundSet = { name = "vectron", },
-			topSpeed = 55.5556,
+			topSpeed = 38.8889,
 			weight = 90,
 		},
 		transportVehicle = {
             carrier = "RAIL",
 			multipleUnitOnly = false,
             reversible = true,
-            groupFileName = "vehicle/train/br189/menu_br189_ms.mdl",
+            groupFileName = "vehicle/train/br189/menu_br189.mdl",
         },
 		seatProvider = {
             crewModels = { "characters/era_c_driver_rail.mdl" },
