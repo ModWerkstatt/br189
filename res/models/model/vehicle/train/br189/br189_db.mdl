@@ -40,33 +40,33 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br189/fenster.mtl", },
-						mesh = "vehicle/train/br189/fenster_lod0.msh",
+						materials = { "vehicle/train/br189/rumpf_db.mtl", },
+						mesh = "vehicle/train/br189/innen_lod0.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br189/fenster.mtl", },
-						mesh = "vehicle/train/br189/fenster_licht_lod0.msh",
+						mesh = "vehicle/train/br189/fenster_lod0.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
                     {
 						children = {
 							{
-						        materials = { "vehicle/train/br189/unterbau.mtl", },
+						        materials = { "vehicle/train/br189/beweglich.mtl", },
 								mesh = "vehicle/train/br189/drehgestell_lod0.msh",
 								name = "bogie",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 							},
 							{
-						        materials = { "vehicle/train/br189/unterbau.mtl", },
+						        materials = { "vehicle/train/br189/beweglich.mtl", },
 								mesh = "vehicle/train/br189/rad_lod0.msh",
 								name = "rad",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.45, 0, 0.585616, 1, },
 							},
 							{
-						        materials = { "vehicle/train/br189/unterbau.mtl", },
+						        materials = { "vehicle/train/br189/beweglich.mtl", },
 								mesh = "vehicle/train/br189/rad_lod0.msh",
 								name = "rad",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.45, 0, 0.585616, 1, },
@@ -78,19 +78,19 @@ return {
 					{
 						children = {
 							{
-						        materials = { "vehicle/train/br189/unterbau.mtl", },
+						        materials = { "vehicle/train/br189/beweglich.mtl", },
 								mesh = "vehicle/train/br189/drehgestell_lod0.msh",
 								name = "bogie",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 							},
 							{
-						        materials = { "vehicle/train/br189/unterbau.mtl", },
+						        materials = { "vehicle/train/br189/beweglich.mtl", },
 								mesh = "vehicle/train/br189/rad_lod0.msh",
 								name = "rad",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.45, 0, 0.585616, 1, },
 							},
 							{
-						        materials = { "vehicle/train/br189/unterbau.mtl", },
+						        materials = { "vehicle/train/br189/beweglich.mtl", },
 								mesh = "vehicle/train/br189/rad_lod0.msh",
 								name = "rad",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.45, 0, 0.585616, 1, },
@@ -101,52 +101,52 @@ return {
 					},
 					--- SA DE ---
 					{
-						materials = { "vehicle/train/br189/unterbau.mtl", },
+						materials = { "vehicle/train/br189/beweglich.mtl", },
 						mesh = "vehicle/train/br189/panto_oben_de_lod0.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br189/unterbau.mtl", },
+						materials = { "vehicle/train/br189/beweglich.mtl", },
 						mesh = "vehicle/train/br189/schleif-de_lod0.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.27155, 0, 5.8, 1, },
 					},
 					--- SA KS --
 					{
-						materials = { "vehicle/train/br189/unterbau.mtl", },
+						materials = { "vehicle/train/br189/beweglich.mtl", },
 						mesh = "vehicle/train/br189/panto_unten_2_lod0.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br189/unterbau.mtl", },
+						materials = { "vehicle/train/br189/beweglich.mtl", },
 						mesh = "vehicle/train/br189/schleif-ks_lod0.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.1655, 0, 4.09, 1, },
 					},
 					--- SA IT ---
 					{
-						materials = { "vehicle/train/br189/unterbau.mtl", },
+						materials = { "vehicle/train/br189/beweglich.mtl", },
 						mesh = "vehicle/train/br189/panto_unten_3_lod0.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br189/unterbau.mtl", },
+						materials = { "vehicle/train/br189/beweglich.mtl", },
 						mesh = "vehicle/train/br189/schleif-it_lod0.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.176, 0, 4.09, 1, },
 					},
 					--- SA PL ---
 					{
-						materials = { "vehicle/train/br189/unterbau.mtl", },
+						materials = { "vehicle/train/br189/beweglich.mtl", },
 						mesh = "vehicle/train/br189/panto_unten_4_lod0.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.2385, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br189/unterbau.mtl", },
+						materials = { "vehicle/train/br189/beweglich.mtl", },
 						mesh = "vehicle/train/br189/schleif-pl_lod0.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.0655, 0, 4.09, 1, },
@@ -216,7 +216,7 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br189/unterbau.mtl", },
+						materials = { "vehicle/train/br189/beweglich.mtl", },
 						mesh = "vehicle/train/br189/unterbau_ms_lod1.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -242,7 +242,7 @@ return {
                     {
 						children = {
 							{
-						        materials = { "vehicle/train/br189/unterbau.mtl", },
+						        materials = { "vehicle/train/br189/beweglich.mtl", },
 								mesh = "vehicle/train/br189/dg1_ms_lod1.msh",
 								name = "bogie",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -266,7 +266,7 @@ return {
 					{
 						children = {
 							{
-						        materials = { "vehicle/train/br189/unterbau.mtl", },
+						        materials = { "vehicle/train/br189/beweglich.mtl", },
 								mesh = "vehicle/train/br189/dg2_ms_lod1.msh",
 								name = "bogie",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -289,52 +289,52 @@ return {
 					},
 					--- Stromabnehmer ---
 					{
-						materials = { "vehicle/train/br189/unterbau.mtl", },
+						materials = { "vehicle/train/br189/beweglich.mtl", },
 						mesh = "vehicle/train/br189/panto_oben_1_lod1.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br189/unterbau.mtl", },
+						materials = { "vehicle/train/br189/beweglich.mtl", },
 						mesh = "vehicle/train/br189/schleif-de_lod1.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.27155, 0, 5.8, 1, },
 					},
 					--- SA NS --
 					{
-						materials = { "vehicle/train/br189/unterbau.mtl", },
+						materials = { "vehicle/train/br189/beweglich.mtl", },
 						mesh = "vehicle/train/br189/panto_unten_2_lod1.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br189/unterbau.mtl", },
+						materials = { "vehicle/train/br189/beweglich.mtl", },
 						mesh = "vehicle/train/br189/schleif-ns_lod1.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.1655, 0, 4.21, 1, },
 					},
 					--- SA IT ---
 					{
-						materials = { "vehicle/train/br189/unterbau.mtl", },
+						materials = { "vehicle/train/br189/beweglich.mtl", },
 						mesh = "vehicle/train/br189/panto_unten_3_lod1.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br189/unterbau.mtl", },
+						materials = { "vehicle/train/br189/beweglich.mtl", },
 						mesh = "vehicle/train/br189/schleif-it_lod1.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.176, 0, 4.22, 1, },
 					},
 					--- SA CH ---
 					{
-						materials = { "vehicle/train/br189/unterbau.mtl", },
+						materials = { "vehicle/train/br189/beweglich.mtl", },
 						mesh = "vehicle/train/br189/panto_unten_4_lod1.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.2385, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br189/unterbau.mtl", },
+						materials = { "vehicle/train/br189/beweglich.mtl", },
 						mesh = "vehicle/train/br189/schleif-ch_lod1.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.0655, 0, 4.22, 1, },
@@ -401,7 +401,7 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br189/unterbau.mtl", },
+						materials = { "vehicle/train/br189/beweglich.mtl", },
 						mesh = "vehicle/train/br189/unterbau_ms_lod2.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -427,7 +427,7 @@ return {
                     {
 						children = {
 							{
-						        materials = { "vehicle/train/br189/unterbau.mtl", },
+						        materials = { "vehicle/train/br189/beweglich.mtl", },
 								mesh = "vehicle/train/br189/dg1_ms_lod2.msh",
 								name = "bogie",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -451,7 +451,7 @@ return {
 					{
 						children = {
 							{
-						        materials = { "vehicle/train/br189/unterbau.mtl", },
+						        materials = { "vehicle/train/br189/beweglich.mtl", },
 								mesh = "vehicle/train/br189/dg2_ms_lod2.msh",
 								name = "bogie",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -474,52 +474,52 @@ return {
 					},
 					--- Stromabnehmer ---
 					{
-						materials = { "vehicle/train/br189/unterbau.mtl", },
+						materials = { "vehicle/train/br189/beweglich.mtl", },
 						mesh = "vehicle/train/br189/panto_oben_1_lod2.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br189/unterbau.mtl", },
+						materials = { "vehicle/train/br189/beweglich.mtl", },
 						mesh = "vehicle/train/br189/schleif-de_lod2.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.27155, 0, 5.8, 1, },
 					},
 					--- SA NS --
 					{
-						materials = { "vehicle/train/br189/unterbau.mtl", },
+						materials = { "vehicle/train/br189/beweglich.mtl", },
 						mesh = "vehicle/train/br189/panto_unten_2_lod2.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br189/unterbau.mtl", },
+						materials = { "vehicle/train/br189/beweglich.mtl", },
 						mesh = "vehicle/train/br189/schleif-ns_lod2.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.1655, 0, 4.21, 1, },
 					},
 					--- SA IT ---
 					{
-						materials = { "vehicle/train/br189/unterbau.mtl", },
+						materials = { "vehicle/train/br189/beweglich.mtl", },
 						mesh = "vehicle/train/br189/panto_unten_3_lod2.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br189/unterbau.mtl", },
+						materials = { "vehicle/train/br189/beweglich.mtl", },
 						mesh = "vehicle/train/br189/schleif-it_lod2.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.176, 0, 4.22, 1, },
 					},
 					--- SA CH ---
 					{
-						materials = { "vehicle/train/br189/unterbau.mtl", },
+						materials = { "vehicle/train/br189/beweglich.mtl", },
 						mesh = "vehicle/train/br189/panto_unten_4_lod2.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.2385, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br189/unterbau.mtl", },
+						materials = { "vehicle/train/br189/beweglich.mtl", },
 						mesh = "vehicle/train/br189/schleif-ch_lod2.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.0655, 0, 4.22, 1, },
@@ -580,7 +580,7 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br189/unterbau.mtl", },
+						materials = { "vehicle/train/br189/beweglich.mtl", },
 						mesh = "vehicle/train/br189/unterbau_ms_lod3.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -606,7 +606,7 @@ return {
                     {
 						children = {
 							{
-						        materials = { "vehicle/train/br189/unterbau.mtl", },
+						        materials = { "vehicle/train/br189/beweglich.mtl", },
 								mesh = "vehicle/train/br189/dg_low_lod3.msh",
 								name = "bogie",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -630,7 +630,7 @@ return {
 					{
 						children = {
 							{
-						        materials = { "vehicle/train/br189/unterbau.mtl", },
+						        materials = { "vehicle/train/br189/beweglich.mtl", },
 								mesh = "vehicle/train/br189/dg_low_lod3.msh",
 								name = "bogie",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
