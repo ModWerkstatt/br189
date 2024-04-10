@@ -11,7 +11,7 @@ return {
 			fadeOutStartDist = 10000,
 		},
 		map_emissive = {
-			fileName = "models/vehicle/train/br189/br189_licht.dds",
+			fileName = "models/vehicle/train/br189/licht_led_albedo_opacity.dds",
 			type = "TWOD",
 		},
 		polygon_offset = {
