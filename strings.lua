@@ -34,9 +34,12 @@ return {
 		["dc_br189"] = "BR 189(ES 64 F4) Gleichstromsystem aktivieren?",
 		["option_dc_br189_desc"] = "Soll die BR 189(ES 64 F4) für das Gleichstromsystem aktiviert werden?",
 
-		["br189_db_name"] = 	"BR 189 076 DB Cargo",
+		["br189_db_name"] = 	"BR 189 076 DB Cargo (2007)",
 		
-		["br189_mrce_name"] = 	"BR 189(ES 64 F4) 997 MRCE",
+		["br189_mrce_name"] = 	"BR 189(ES 64 F4) 997 MRCE (2009)",
+		
+		
+		["br189_dispo_name"] = 	"BR 189(ES 64 F4) 997 Dispolok (2009)",
 
         -- Vorspann
         ["Vorspann_br189"] = "Vorspann-Loks aktivieren?",

@@ -679,7 +679,7 @@ return {
 	},
 	metadata = {
 		availability = {
-			yearFrom = 2006,
+			yearFrom = 2009,
 			yearTo = 2023,
 		},
 		cost = {
@@ -729,13 +729,13 @@ return {
 			engines = {
 				{
 					power = 6400,
-					tractiveEffort = 320,
+					tractiveEffort = 300,
 					type = "ELECTRIC",
 				},
 			},
 			soundSet = { name = "vectron", },
 			topSpeed = 38.8889,
-			weight = 89,
+			weight = 87,
 		},
 		transportVehicle = {
             carrier = "RAIL",
