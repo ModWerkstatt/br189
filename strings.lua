@@ -37,25 +37,28 @@ return {
 		["br189_db_name"] = 	"BR 189 076 DB Cargo (2007)",
 		
 		["br189_mrce_name"] = 	"BR 189(ES 64 F4) 997 MRCE (2009)",
-		
-		
-		["br189_dispo_name"] = 	"BR 189(ES 64 F4) 997 Dispolok (2009)",
+				
+		["br189_dispo_name"] = 	"BR 189(ES 64 F4) 908 Dispolok (2009)",
 
         -- Vorspann
         ["Vorspann_br189"] = "Vorspann-Loks aktivieren?",
         ["option_vorspann_br189_desc"] = "Die Vorspann-Loks (mit vorderem Panto gehoben) aktiviert werden?",
 
-		["br189_db_name_vorspann"] = 	"Vorspann - BR 189 xxx DB Cargo",
+		["br189_db_name_vorspann"] = 		"Vorspann - BR 189 076 DB Cargo",
 		
-		["br189_mrce_name_vorspann"] = 	"Vorspann - BR 189(ES 64 F4) xxx MRCE ",
+		["br189_mrce_name_vorspann"] = 		"Vorspann - BR 189(ES 64 F4) 997 MRCE ",
+		
+		["br189_dispo_name_vorspann"] = 	"Vorspann - BR 189(ES 64 F4) 908 Dispolok (2009)",
 		
         -- Fake
         ["Fake_br189"] = "Fake-Loks aktivieren?",
         ["option_fake_br189_desc"] = "Die Fake-Loks (Pantos unten, kein Licht, kein Fahrer) aktiviert werden?",
 
-		["br189_db_name_fake"] = 	"Fake - BR 189 xxx DB Cargo",
+		["br189_db_name_fake"] = 		"Fake - BR 189 076 DB Cargo",
 		
-		["br189_mrce_name_fake"] = 	"Fake - BR 189(ES 64 F4) xxx MRCE",
+		["br189_mrce_name_fake"] = 		"Fake - BR 189(ES 64 F4) 997 MRCE",
+		
+		["br189_dispo_name_fake"] =		"Fake - BR 189(ES 64 F4) 908 Dispolok (2009)",
 
 	},
 }
