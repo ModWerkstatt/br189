@@ -27,7 +27,7 @@ return {
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
-					
+
 					{
 						materials = { "vehicle/train/br189/rumpf_db.mtl", },
 						mesh = "vehicle/train/br189/puffer_lod0.msh",
@@ -109,28 +109,27 @@ return {
 					--- Licht ---
 					{
 						materials = { "vehicle/train/br189/br189_white_lights.mtl", },
-						mesh = "vehicle/train/br189/licht_spitze_vorne_lod0.msh",
+						mesh = "vehicle/train/br189/licht_spitze_lod0.msh",
 						name = "Licht hinten weiß",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.005, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br189/br189_red_lights.mtl", },
-						mesh = "vehicle/train/br189/licht_schluss_hinten_lod0.msh",
+						mesh = "vehicle/train/br189/licht_schluss_lod0.msh",
 						name = "Licht hinten weiß",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.005, 0, 0, 1, },
 					},
-					--- Licht ---
 					{
 						materials = { "vehicle/train/br189/br189_white_lights.mtl", },
-						mesh = "vehicle/train/br189/licht_spitze_hinten_lod0.msh",
+						mesh = "vehicle/train/br189/licht_spitze_lod0.msh",
 						name = "Licht hinten weiß",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.005, 0, 0, 1, },
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -0.005, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br189/br189_red_lights.mtl", },
-						mesh = "vehicle/train/br189/licht_schluss_vorne_lod0.msh",
+						mesh = "vehicle/train/br189/licht_schluss_lod0.msh",
 						name = "Licht hinten weiß",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.005, 0, 0, 1, },
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -0.005, 0, 0, 1, },
 					},
 					--- SA DE ---
 					{
@@ -250,7 +249,7 @@ return {
 			static = false,
 			visibleFrom = 0,
 			visibleTo = 100,
-		},		
+		},
 		{
 			node = {
 				children = {
@@ -266,7 +265,7 @@ return {
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
-					
+
 					{
 						materials = { "vehicle/train/br189/rumpf_db.mtl", },
 						mesh = "vehicle/train/br189/puffer_lod1.msh",
@@ -348,28 +347,28 @@ return {
 					--- Licht ---
 					{
 						materials = { "vehicle/train/br189/br189_white_lights.mtl", },
-						mesh = "vehicle/train/br189/licht_spitze_vorne_lod0.msh",
+						mesh = "vehicle/train/br189/licht_spitze_lod0.msh",
 						name = "Licht hinten weiß",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.005, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br189/br189_red_lights.mtl", },
-						mesh = "vehicle/train/br189/licht_schluss_hinten_lod0.msh",
+						mesh = "vehicle/train/br189/licht_schluss_lod0.msh",
 						name = "Licht hinten weiß",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.005, 0, 0, 1, },
 					},
 					--- Licht ---
 					{
 						materials = { "vehicle/train/br189/br189_white_lights.mtl", },
-						mesh = "vehicle/train/br189/licht_spitze_hinten_lod0.msh",
+						mesh = "vehicle/train/br189/licht_spitze_lod0.msh",
 						name = "Licht hinten weiß",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.005, 0, 0, 1, },
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -0.005, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br189/br189_red_lights.mtl", },
-						mesh = "vehicle/train/br189/licht_schluss_vorne_lod0.msh",
+						mesh = "vehicle/train/br189/licht_schluss_lod0.msh",
 						name = "Licht hinten weiß",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.005, 0, 0, 1, },
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -0.005, 0, 0, 1, },
 					},
 					--- SA DE ---
 					{
@@ -504,7 +503,7 @@ return {
 						mesh = "vehicle/train/br189/rumpf_lod2.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					},					
+					},
 					{
 						materials = { "vehicle/train/br189/rumpf_db.mtl", },
 						mesh = "vehicle/train/br189/puffer_lod2.msh",
@@ -570,32 +569,6 @@ return {
 						},
 						name = "bogie2",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.95, 0, 0.03, 1, },
-					},
-					--- Licht ---
-					{
-						materials = { "vehicle/train/br189/br189_white_lights.mtl", },
-						mesh = "vehicle/train/br189/licht_spitze_vorne_lod0.msh",
-						name = "Licht hinten weiß",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.005, 0, 0, 1, },
-					},
-					{
-						materials = { "vehicle/train/br189/br189_red_lights.mtl", },
-						mesh = "vehicle/train/br189/licht_schluss_hinten_lod0.msh",
-						name = "Licht hinten weiß",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.005, 0, 0, 1, },
-					},
-					--- Licht ---
-					{
-						materials = { "vehicle/train/br189/br189_white_lights.mtl", },
-						mesh = "vehicle/train/br189/licht_spitze_hinten_lod0.msh",
-						name = "Licht hinten weiß",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.005, 0, 0, 1, },
-					},
-					{
-						materials = { "vehicle/train/br189/br189_red_lights.mtl", },
-						mesh = "vehicle/train/br189/licht_schluss_vorne_lod0.msh",
-						name = "Licht hinten weiß",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.005, 0, 0, 1, },
 					},
 					--- SA DE ---
 					{
@@ -705,7 +678,7 @@ return {
 						mesh = "vehicle/train/br189/rumpf_lod3.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					},		
+					},
 				},
 				name = "RootNode",
 				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -0.02, 1, },
@@ -742,17 +715,17 @@ return {
 			configs = {
 				{
 					axles = { "vehicle/train/br189/rad_lod1.msh", },
-					backBackwardParts = { },
-					backForwardParts = { },
-					frontBackwardParts = { },
-					frontForwardParts = { },
+					backBackwardParts = { 19, },
+					backForwardParts = { 17, },
+					frontBackwardParts = { 18, },
+					frontForwardParts = { 16, },
 				},
 				{
 					axles = { "vehicle/train/br189/rad_lod1.msh", },
-					backBackwardParts = { },
-					backForwardParts = { },
-					frontBackwardParts = { },
-					frontForwardParts = { },
+					backBackwardParts = { 19, },
+					backForwardParts = { 17, },
+					frontBackwardParts = { 18, },
+					frontForwardParts = { 16, },
 				},
 				{
 					axles = { "vehicle/train/br189/rad_lod2.msh", },
