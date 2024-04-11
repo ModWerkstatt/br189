@@ -565,22 +565,20 @@ return {
 					frontBackwardParts = { },
 					frontForwardParts = { },
 				},
---[[
 				{
 					axles = { "vehicle/train/br189/rad_lod1.msh", },
-					backBackwardParts = { 28 },
-					backForwardParts = { 26 },
-					frontBackwardParts = { 27 },
-					frontForwardParts = { 25 },
+					backBackwardParts = { },
+					backForwardParts = { },
+					frontBackwardParts = { },
+					frontForwardParts = { },
 				},
 				{
 					axles = { "vehicle/train/br189/rad_lod2.msh", },
-					backBackwardParts = { 24 },
-					backForwardParts = { 22 },
-					frontBackwardParts = { 23 },
-					frontForwardParts = { 21 },
+					backBackwardParts = { },
+					backForwardParts = { },
+					frontBackwardParts = { },
+					frontForwardParts = { },
 				},
-]]
 			},
 			engines = {
 				{
