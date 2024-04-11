@@ -27,13 +27,6 @@ return {
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
-					--- Kamera ---
-					{
-						materials = { "vehicle/train/br189/rumpf_db.mtl", },
-						mesh = "vehicle/train/br189/rumpf_kamera_lod0.msh",
-						name = "rumpf",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					},
 					
 					{
 						materials = { "vehicle/train/br189/rumpf_db.mtl", },
@@ -56,6 +49,12 @@ return {
 					{
 						materials = { "vehicle/train/br189/fenster.mtl", },
 						mesh = "vehicle/train/br189/fenster_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br189/fenster.mtl", },
+						mesh = "vehicle/train/br189/fenster_licht_lod0.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
@@ -236,6 +235,13 @@ return {
 						mesh = "vehicle/train/br189/schleif-ns_lod0.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.385, 0, 4.09, 1, },
+					},
+					--- Kamera ---
+					{
+						materials = { "vehicle/train/br189/rumpf_db.mtl", },
+						mesh = "vehicle/train/br189/rumpf_kamera_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 				},
 				name = "RootNode",
