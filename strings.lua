@@ -39,6 +39,10 @@ return {
 		["br189_mrce_name"] = 	"BR 189(ES 64 F4) 997 MRCE (2009)",
 				
 		["br189_dispo_name"] = 	"BR 189(ES 64 F4) 908 Dispolok (2009)",
+		
+		["br189_sbb_name"] = 	"BR 189(ES 64 F4) 290 SBB Cargo Int - Rastattless (2017) VK",
+		["br189_sbb2_name"] = 	"BR 189(ES 64 F4) 102 SBB Cargo International (2014) VL",
+		["br189_sbb3_name"] = 	"BR 189(ES 64 F4) 115 SBB Cargo Int - Alpäzähmer (2016) VK",
 
         -- Vorspann
         ["Vorspann_br189"] = "Vorspann-Loks aktivieren?",
