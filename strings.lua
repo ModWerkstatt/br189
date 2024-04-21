@@ -34,15 +34,22 @@ return {
 		["dc_br189"] = "BR 189(ES 64 F4) Gleichstromsystem aktivieren?",
 		["option_dc_br189_desc"] = "Soll die BR 189(ES 64 F4) für das Gleichstromsystem aktiviert werden?",
 
-		["br189_db_name"] = 	"BR 189 076 DB Cargo (2007)",
+		["br189_db_name"] = 		"BR 189 076 DB Cargo (2007)",
 		
-		["br189_mrce_name"] = 	"BR 189(ES 64 F4) 997 MRCE (2009)",
+		["br189_mrce_name"] = 		"BR 189(ES 64 F4) 997 MRCE (2009)",
+		["br189_mrce_name"] = 		"BR 189(ES 64 F4) 993 MRCE - Dispolok Lackierung (2015)",
 				
-		["br189_dispo_name"] = 	"BR 189(ES 64 F4) 908 Dispolok (2009)",
+		["br189_dispo_name"] = 		"BR 189(ES 64 F4) 908 Dispolok (2009)",
 		
-		["br189_sbb_name"] = 	"BR 189(ES 64 F4) 290 SBB Cargo Int - Rastattless (2017) VK",
-		["br189_sbb2_name"] = 	"BR 189(ES 64 F4) 102 SBB Cargo International (2014) VE",
-		["br189_sbb3_name"] = 	"BR 189(ES 64 F4) 115 SBB Cargo Int - Alpäzähmer (2016) VE",
+		["br189_sbb_name"] = 		"BR 189(ES 64 F4) 290 SBB Cargo Int - Rastattless (2017)",
+		["br189_sbb2_name"] = 		"BR 189(ES 64 F4) 102 SBB Cargo International (2014)",
+		["br189_sbb3_name"] = 		"BR 189(ES 64 F4) 115 SBB Cargo Int - Alpäzähmer (2016)",
+		["br189_sbb4_name"] = 		"BR 189(ES 64 F4) 096 SBB Cargo International (2023)",
+				
+		["br189_akiem_name"] = 		"BR 189(ES 64 F4) 112 Akiem (2022)",
+				
+		["br189_beacon_name"] = 	"BR 189(ES 64 F4) 993 Beacon - Dispolok Lackierung (2023)",
+		["br189_beacon2_name"] = 	"BR 189(ES 64 F4) 997 Beacon (2009)",
 
         -- Vorspann
         ["Vorspann_br189"] = "Vorspann-Loks aktivieren?",
