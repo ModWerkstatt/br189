@@ -42,6 +42,8 @@ return {
 		["br189_dispo_name"] = 		"BR 189(ES 64 F4) 908 Dispolok (2004)",
 		["br189_dispo2_name"] = 	"BR 189(ES 64 F4) 906 Dispolok - ÖBB (2004)",
 		["br189_dispo3_name"] = 	"BR 189(ES 64 F4) 911 Dispolok - 100. Dispolok (2004)",
+		["br189_dispo4_name"] = 	"BR 189(ES 64 F4) 996 Dispolok - TX Logistik (2009)",
+		["br189_dispo5_name"] = 	"BR 189(ES 64 F4) 988 Dispolok - NF Cargo (2005)",
 		
 		["br189_sbb_name"] = 		"BR 189(ES 64 F4) 290 SBB Cargo Int - Rastattless (2017)",
 		["br189_sbb2_name"] = 		"BR 189(ES 64 F4) 102 SBB Cargo Int (2014)",
@@ -51,7 +53,6 @@ return {
 		["br189_akiem_name"] = 		"BR 189(ES 64 F4) 112 Akiem (2022)",
 				
 		["br189_beacon_name"] = 	"BR 189(ES 64 F4) 993 Beacon - Dispolok Lackierung (2023)",
-		["br189_beacon2_name"] = 	"BR 189(ES 64 F4) 997 Beacon (2009)",
 
         -- Vorspann
         ["Vorspann_br189"] = "Vorspann-Loks aktivieren?",
