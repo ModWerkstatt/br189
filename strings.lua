@@ -38,6 +38,10 @@ return {
 		
 		["br189_mrce_name"] = 		"BR 189(ES 64 F4) 997 MRCE (2009)",
 		["br189_mrce2_name"] = 		"BR 189(ES 64 F4) 993 MRCE - Dispolok Lackierung (2015)",
+		["br189_mrce3_name"] = 		"BR 189(ES 64 F4) 211 MRCE - MRCE/Dispolok Logo (2009)",
+		["br189_mrce4_name"] = 		"BR 189(ES 64 F4) 152 MRCE - PKP Intercity (2010)",
+		["br189_mrce5_name"] = 		"BR 189(ES 64 F4) 993 MRCE - Dispolok Lackierung (2015)",
+		["br189_mrce6_name"] = 		"BR 189(ES 64 F4) 993 MRCE - Dispolok Lackierung (2015)",
 				
 		["br189_dispo_name"] = 		"BR 189(ES 64 F4) 908 Dispolok (2004)",
 		["br189_dispo2_name"] = 	"BR 189(ES 64 F4) 906 Dispolok - ÖBB (2004)",
