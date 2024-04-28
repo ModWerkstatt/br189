@@ -1,7 +1,7 @@
 ﻿function data()
 return {
 	info = {
-		minorVersion = 1,
+		minorVersion = 0,
 		severityAdd = "NONE",
 		severityRemove = "WARNING",
 		name = _("mod_name"),
@@ -12,7 +12,7 @@ return {
 		        role = "CREATOR",
 		    },
 		},
-		tags = { "europe", "train", "siemens", "vectron", "smartron", "electric", "multi-system", "universal" },
+		tags = { "europe", "train", "siemens", "electric", "multi-system", "universal" },
 		minGameVersion = 0,
 		dependencies = { },
 		url = { "" },
@@ -35,14 +35,14 @@ return {
 				key = "br189_ms",
 				name = _("ms_br189"),
 				values = { "No", "Yes", },
-				tooltip = _("option_ms_br189_desc"),				
+				tooltip = _("option_ms_br189_desc"),
 				defaultIndex = 1,
 			},
 			{
 				key = "br189_dc",
 				name = _("dc_br189"),
 				values = { "No", "Yes", },
-				tooltip = _("option_dc_br189_desc"),				
+				tooltip = _("option_dc_br189_desc"),
 				defaultIndex = 1,
 			},
         },
@@ -50,63 +50,63 @@ return {
 	options = {
 	},
 	runFn = function (settings, modParams)
-		
-		local vorspannFilter = function(fileName, data)		
-			if data.metadata.transportVehicle and data.metadata.br189 and data.metadata.br189.vorspann == true then				
+
+		local vorspannFilter = function(fileName, data)
+			if data.metadata.transportVehicle and data.metadata.br189 and data.metadata.br189.vorspann == true then
 				data.metadata.availability.yearFrom = 1
 				data.metadata.availability.yearTo = 2
 				--return false
-			end	
+			end
 			--return true
 			return data
-		end 
-		
-		local fakeFilter = function(fileName, data)		
-			if data.metadata.transportVehicle and data.metadata.br189 and data.metadata.br189.fake == true then		
+		end
+
+		local fakeFilter = function(fileName, data)
+			if data.metadata.transportVehicle and data.metadata.br189 and data.metadata.br189.fake == true then
 				data.metadata.availability.yearFrom = 1
-				data.metadata.availability.yearTo = 2				
-			end				
+				data.metadata.availability.yearTo = 2
+			end
 			return data
-		end 
-		
-		local msFilter = function(fileName, data)		
-			if data.metadata.transportVehicle and data.metadata.br189 and data.metadata.br189.ms == true then			
+		end
+
+		local msFilter = function(fileName, data)
+			if data.metadata.transportVehicle and data.metadata.br189 and data.metadata.br189.ms == true then
 				data.metadata.availability.yearFrom = 1
-				data.metadata.availability.yearTo = 2				
-			end				
+				data.metadata.availability.yearTo = 2
+			end
 			return data
-		end 
-		
-		local dcFilter = function(fileName, data)		
-			if data.metadata.transportVehicle and data.metadata.br189 and data.metadata.br189.dc == true then			
+		end
+
+		local dcFilter = function(fileName, data)
+			if data.metadata.transportVehicle and data.metadata.br189 and data.metadata.br189.dc == true then
 				data.metadata.availability.yearFrom = 1
-				data.metadata.availability.yearTo = 2				
-			end				
+				data.metadata.availability.yearTo = 2
+			end
 			return data
-		end 
-		
+		end
+
 		if modParams[getCurrentModId()] ~= nil then
-			local params = modParams[getCurrentModId()]					
-			if params["br189_vorspann"] == 0 then				
-				--addFileFilter("model/transportVehicle", vorspannFilter)	
+			local params = modParams[getCurrentModId()]
+			if params["br189_vorspann"] == 0 then
+				--addFileFilter("model/transportVehicle", vorspannFilter)
 				addModifier("loadModel", vorspannFilter)
 			end
-			if params["br189_fake"] == 0 then				
+			if params["br189_fake"] == 0 then
 				addModifier("loadModel", fakeFilter)
 			end
-			if params["br189_ms"] == 0 then				
+			if params["br189_ms"] == 0 then
 				addModifier("loadModel", msFilter)
 			end
-			if params["br189_dc"] == 0 then				
+			if params["br189_dc"] == 0 then
 				addModifier("loadModel", acFilter)
 			end
-			
+
 		else
-			--addFileFilter("model/transportVehicle", vorspannFilter)			
+			--addFileFilter("model/transportVehicle", vorspannFilter)
 			addModifier("loadModel", fakeFilter)
 			addModifier("loadModel", msFilter)
 			addModifier("loadModel", dcFilter)
-		end			
+		end
 	end
 }
 end
