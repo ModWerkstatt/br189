@@ -35,6 +35,7 @@ return {
 		["option_dc_br189_desc"] = "Soll die BR 189(ES 64 F4) für das Gleichstromsystem aktiviert werden?",
 
 		["br189_siemens_name"] = 	"BR 189 929 Siemens - Grenzenlose Mobilität (2007)",
+		["br189_siemens2_name"] = 	"BR 189 801 Siemens - Borderless Mobility (2009)",
 		
 		["br189_db_name"] = 		"BR 189 076 DB Cargo (2007)",
 		
