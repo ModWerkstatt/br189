@@ -760,7 +760,7 @@ return {
 					type = "ELECTRIC",
 				},
 			},
-			soundSet = { name = "vectron", },
+			soundSet = { name = "train_electric_modern", },
 			topSpeed = 38.8889,
 			weight = 87,
 		},
