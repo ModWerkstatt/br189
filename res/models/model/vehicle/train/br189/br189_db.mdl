@@ -146,13 +146,13 @@ return {
 					--- SA DE ---
 					{
 						materials = { "vehicle/train/br189/beweglich_db.mtl", "vehicle/train/br189/rumpf_db.mtl", },
-						mesh = "vehicle/train/br189/panto_unten_de2_lod0.msh", --xx hier 2
+						mesh = "vehicle/train/br189/panto_unten_de2_lod0.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br189/beweglich_db.mtl", "vehicle/train/br189/rumpf_db.mtl", },
-						mesh = "vehicle/train/br189/panto_oben_de2_lod0.msh", --xx hier 2
+						mesh = "vehicle/train/br189/panto_oben_de2_lod0.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
