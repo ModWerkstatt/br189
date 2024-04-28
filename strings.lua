@@ -47,7 +47,7 @@ return {
 		["br189_mrce7_name"] = 		"BR 189(ES 64 F4) 290 MRCE - ERS Railways (2011)",
 		["br189_mrce8_name"] = 		"BR 189(ES 64 F4) 111 MRCE - Captrain (2013)",
 		["br189_mrce9_name"] = 		"BR 189(ES 64 F4) 115 MRCE - ETCS Ready (2009)",
-		["br189_mrce10_name"] = 	"BR 189(ES 64 F4) 993 MRCE - Dispolok Lackierung (2015)",
+		["br189_mrce10_name"] = 	"BR 189(ES 64 F4) 803 MRCE - Dach Grau, andere Latz (2011)",
 		["br189_mrce11_name"] = 	"BR 189(ES 64 F4) 993 MRCE - Dispolok Lackierung (2015)",
 		["br189_mrce12_name"] = 	"BR 189(ES 64 F4) 993 MRCE - Dispolok Lackierung (2015)",
 				
