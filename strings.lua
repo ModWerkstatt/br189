@@ -116,7 +116,11 @@ return {
 		["br189_mrce8_name"] = 		"BR 189 (ES64F4) 111 MRCE - Captrain (2013)",
 		["br189_mrce9_name"] = 		"BR 189 (ES64F4) 115 MRCE - ETCS Ready (2009)",
 		["br189_mrce10_name"] = 	"BR 189 (ES64F4) 803 MRCE - Dach grau, anderer Latz (2011)",
-		["br189_mrce11_name"] = 	"BR 189 (ES64F4) 993 MRCE - Dispolok Lackierung (2015)",
+		["br189_mrce11_name"] = 	"BR 189 (ES64F4) 992 MRCE - City Night Line (2009)",
+		["br189_mrce12_name"] = 	"BR 189 (ES64F4) 911 MRCE - CTL Logistics (2007)",
+		["br189_mrce12_name"] = 	"BR 189 (ES64F4) 993 MRCE - Dispolok Lackierung (2015)",
+		["br189_mrce12_name"] = 	"BR 189 (ES64F4) 993 MRCE - Dispolok Lackierung (2015)",
+		["br189_mrce12_name"] = 	"BR 189 (ES64F4) 993 MRCE - Dispolok Lackierung (2015)",
 		["br189_mrce12_name"] = 	"BR 189 (ES64F4) 993 MRCE - Dispolok Lackierung (2015)",
 
 		["br189_dispo_name"] = 		"BR 189 (ES64F4) 908 Dispolok (2004)",
