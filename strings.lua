@@ -49,12 +49,12 @@ return {
 		["br189_sbb2_name"] = 		"Class 189 (ES64F4) 102 SBB Cargo Int (2014)",
 		["br189_sbb3_name"] = 		"Class 189 (ES64F4) 115 SBB Cargo Int - Alpäzähmer (2016)",
 		["br189_sbb4_name"] = 		"Class 189 (ES64F4) 096 SBB Cargo Int (2023)",
-		["br189_sbb5_name"] = 		"Re 474 096 SBB Cargo Int (2023)",
+		["br189_sbb5_name"] = 		"Re 474 015 SBB Cargo Int (2007)",
 		["br189_sbb6_name"] = 		"Re 474 096 SBB Cargo Int (2023)",
 
 		["br189_akiem_name"] = 		"Class 189 (ES64F4) 112 Akiem (2022)",
 		["br189_akiem2_name"] = 	"Class 189 (ES64F4) 844 Akiem - MRCE paintwork (2022)",
-		["br189_akiem3_name"] = 	"Class 189 (ES64F4) 112 Akiem (2022)",
+		["br189_akiem3_name"] = 	"Class 189 (ES64F4) 114 Akiem - TX Logistik (2022)",
 		["br189_akiem4_name"] = 	"Class 189 (ES64F4) 112 Akiem (2022)",
 
 		["br189_beacon_name"] = 	"Class 189 (ES64F4) 993 Beacon - Dispolok paintwork (2023)",
@@ -133,12 +133,12 @@ return {
 		["br189_sbb2_name"] = 		"BR 189 (ES64F4) 102 SBB Cargo Int (2014)",
 		["br189_sbb3_name"] = 		"BR 189 (ES64F4) 115 SBB Cargo Int - Alpäzähmer (2016)",
 		["br189_sbb4_name"] = 		"BR 189 (ES64F4) 096 SBB Cargo Int (2023)",
-		["br189_sbb5_name"] = 		"Re 474 096 SBB Cargo Int (2023)",
+		["br189_sbb5_name"] = 		"Re 474 015 SBB Cargo Int (2007)",
 		["br189_sbb6_name"] = 		"Re 474 096 SBB Cargo Int (2023)",
 
 		["br189_akiem_name"] = 		"BR 189 (ES64F4) 112 Akiem (2022)",
 		["br189_akiem2_name"] = 	"BR 189 (ES64F4) 844 Akiem - MRCE Lackierung (2022)",
-		["br189_akiem3_name"] = 	"BR 189 (ES64F4) 112 Akiem (2022)",
+		["br189_akiem3_name"] = 	"BR 189 (ES64F4) 114 Akiem - TX Logistik (2022)",
 		["br189_akiem4_name"] = 	"BR 189 (ES64F4) 112 Akiem (2022)",
 
 		["br189_beacon_name"] = 	"BR 189 (ES64F4) 993 Beacon - Dispolok Lackierung (2023)",
