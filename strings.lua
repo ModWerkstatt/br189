@@ -93,6 +93,7 @@ return {
         ["br189_dc_fake_menu"] = 	"BR 189 (ES64F4) DC Fakes",
 
 		["br189_ms"] = 	"BR 189 (ES64F4) als Mehrsystem-Lok mit 4 Stromabnehmern",
+		["br189_ms2"] = "BR 189 (ES64F4) als Mehrsystem-Lok mit 2 Deutschen Stromabnehmern und 2 Ausländischen Stromabnehmer",
 		["br189_dc"] = 	"BR 189 (ES64F4) als Gleichstrom-Lok mit 2 Stromabnehmern.",
 
 		["ms_br189"] = "BR 189 (ES64F4) Mehrsystem aktivieren?",
