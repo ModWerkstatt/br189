@@ -17,7 +17,7 @@ return {
 				children = {
 					{
 						materials = { "vehicle/train/br189/beweglich_db.mtl", },
-						mesh = "vehicle/train/br189/dachgarten_r_lod0.msh",
+						mesh = "vehicle/train/br189/dachgarten_e_lod0.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
@@ -208,6 +208,46 @@ return {
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
+					--- SA KS --
+					{
+						materials = { "vehicle/train/br189/beweglich_db.mtl", },
+						mesh = "vehicle/train/br189/panto_unten_2_lod0.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br189/rumpf_db10.mtl", },
+						mesh = "vehicle/train/br189/schleif-ns_lod0.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.415, 0, 4.08, 1, },
+					},
+					--- SA IT ---
+					{
+						materials = { "vehicle/train/br189/beweglich_db.mtl", },
+						mesh = "vehicle/train/br189/panto_unten_3_lod0.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br189/rumpf_db10.mtl", },
+						mesh = "vehicle/train/br189/schleif-ns_lod0.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.385, 0, 4.09, 1, },
+					},
+					--- Kamera ---
+					{
+						materials = { "vehicle/train/br189/rumpf_db10.mtl", },
+						mesh = "vehicle/train/br189/rumpf_kamera_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					--- Fst aufbauten ---
+					{
+						materials = { "vehicle/train/br189/innen.mtl", },
+						mesh = "vehicle/train/br189/innen_1_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
 				},
 				name = "RootNode",
 				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -221,7 +261,7 @@ return {
 				children = {
 					{
 						materials = { "vehicle/train/br189/beweglich_db.mtl", },
-						mesh = "vehicle/train/br189/dachgarten_r_lod1.msh",
+						mesh = "vehicle/train/br189/dachgarten_e_lod1.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
@@ -414,6 +454,39 @@ return {
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
+					--- SA KS --
+					{
+						materials = { "vehicle/train/br189/beweglich_db.mtl", },
+						mesh = "vehicle/train/br189/panto_unten_2_lod1.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br189/rumpf_db10.mtl", },
+						mesh = "vehicle/train/br189/schleif-pl_lod1.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.415, 0, 4.08, 1, },
+					},
+					--- SA IT ---
+					{
+						materials = { "vehicle/train/br189/beweglich_db.mtl", },
+						mesh = "vehicle/train/br189/panto_unten_3_lod1.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br189/rumpf_db10.mtl", },
+						mesh = "vehicle/train/br189/schleif-pl_lod1.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.385, 0, 4.09, 1, },
+					},
+					--- Kamera ---
+					{
+						materials = { "vehicle/train/br189/rumpf_db10.mtl", },
+						mesh = "vehicle/train/br189/rumpf_kamera_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
 				},
 				name = "RootNode",
 				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -0.02, 1, },
@@ -427,7 +500,7 @@ return {
 				children = {
 					{
 						materials = { "vehicle/train/br189/beweglich_db.mtl", },
-						mesh = "vehicle/train/br189/dachgarten_r_lod2.msh",
+						mesh = "vehicle/train/br189/dachgarten_e_lod2.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
@@ -581,6 +654,20 @@ return {
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
+					--- SA KS --
+					{
+						materials = { "vehicle/train/br189/beweglich_db.mtl", },
+						mesh = "vehicle/train/br189/panto_unten_2_lod2.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					--- SA IT ---
+					{
+						materials = { "vehicle/train/br189/beweglich_db.mtl", },
+						mesh = "vehicle/train/br189/panto_unten_3_lod2.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
 				},
 				name = "RootNode",
 				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -0.02, 1, },
@@ -609,15 +696,15 @@ return {
 	},
 	metadata = {
 		availability = {
-			yearFrom = 2005,
-			yearTo = 2008,
+			yearFrom = 2007,
+			yearTo = 2013,
 		},
 		cost = {
 			price = -1,
 			priceScale = 1,
 		},
 		description = {
-			name = _("br189_db9_name"),
+			name = _("br189_db10_name"),
 			description = _("br189_desc") .. _("br189_ms"),
 		},
 		emission = {
