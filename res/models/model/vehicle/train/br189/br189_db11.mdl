@@ -697,14 +697,14 @@ return {
 	metadata = {
 		availability = {
 			yearFrom = 2007,
-			yearTo = 2013,
+			yearTo = 0000,
 		},
 		cost = {
 			price = -1,
 			priceScale = 1,
 		},
 		description = {
-			name = _("br189_db10_name"),
+			name = _("br189_db11_name"),
 			description = _("br189_desc") .. _("br189_ms"),
 		},
 		emission = {
