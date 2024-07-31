@@ -161,6 +161,9 @@ return {
 		["br189_akiem4_name"] = 	"BR 189 (ES64F4) 112 Akiem (2022)",
 
 		["br189_beacon_name"] = 	"BR 189 (ES64F4) 993 Beacon - Dispolok Lackierung (2023)",
+		["br189_beacon2_name"] = 	"BR 189 (ES64F4) 997 Beacon (2023)",
+		["br189_beacon3_name"] = 	"BR 189 (ES64F4) 285 Beacon (2023)",
+		["br189_beacon4_name"] = 	"BR 189 (ES64F4) 402 Beacon (2023)",
 
         -- Vorspann
         ["Vorspann_br189"] = "Vorspann-Loks aktivieren?",
