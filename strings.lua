@@ -112,6 +112,9 @@ return {
 
 		["dc_br189"] = "BR 189 (ES64F4) Gleichstromsystem aktivieren?",
 		["option_dc_br189_desc"] = "Soll die BR 189 (ES64F4) für das Gleichstromsystem aktiviert werden?",
+		
+		["ac_br189"] = "BR 189 (ES64F4) Wechselstromsystem aktivieren?",
+		["option_ac_br189_desc"] = "Soll die BR 189 (ES64F4) für das Wechselstromsystem aktiviert werden?",
 
 		["br189_siemens_name"] = 	"BR 189 929 Siemens - Grenzenlose Mobilität (2007)",
 		["br189_siemens2_name"] = 	"BR 189 801 Siemens - Borderless Mobility (2009)",
