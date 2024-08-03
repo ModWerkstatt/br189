@@ -159,7 +159,7 @@ return {
 					},
 					{
 						materials = { "vehicle/train/br189/rumpf_mrce4.mtl", },
-						mesh = "vehicle/train/br189/schleif-it_lod0.msh",
+						mesh = "vehicle/train/br189/schleif-pl_lod0.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.415, 0, 4.08, 1, },
 					},
@@ -345,7 +345,7 @@ return {
 					},
 					{
 						materials = { "vehicle/train/br189/rumpf_mrce4.mtl", },
-						mesh = "vehicle/train/br189/schleif-it_lod1.msh",
+						mesh = "vehicle/train/br189/schleif-pl_lod1.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.415, 0, 4.08, 1, },
 					},

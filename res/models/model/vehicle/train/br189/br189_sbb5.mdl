@@ -244,7 +244,7 @@ return {
 					--- Fst aufbauten ---
 					{
 						materials = { "vehicle/train/br189/innen.mtl", },
-						mesh = "vehicle/train/br189/innen_1_lod0.msh",
+						mesh = "vehicle/train/br189/innen_2_lod0.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
