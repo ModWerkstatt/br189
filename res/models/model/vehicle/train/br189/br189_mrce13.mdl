@@ -650,7 +650,7 @@ return {
 		},
 		description = {
 			name = _("br189_mrce13_name"),
-			description = _("br189_desc") .. _("br189_ms"),
+			description = _("br189_desc") .. _("br189_dc"),
 		},
 		emission = {
 			idleEmission = -1,
@@ -732,8 +732,9 @@ return {
 		br189 = {
 			vorspann = false,
 			fake = false,
-			ms = true,
-			dc = false,
+			ms = false,
+			dc = true,
+			ac = false,
 		},
 	},
 	version = 1,
