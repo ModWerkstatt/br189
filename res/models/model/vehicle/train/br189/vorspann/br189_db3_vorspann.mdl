@@ -630,7 +630,7 @@ return {
 			priceScale = 1,
 		},
 		description = {
-			name = _("br189_db3_name"),
+			name = _("br189_db3_name_vorspann"),
 			description = _("br189_desc") .. _("br189_ac"),
 		},
 		emission = {
@@ -680,7 +680,7 @@ return {
 					type = "ELECTRIC",
 				},
 			},
-			soundSet = { name = "waggon_modern", },
+			soundSet = { name = "train_electric_modern", },
 			topSpeed = 38.8889,
 			weight = 87,
 		},

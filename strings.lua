@@ -92,8 +92,9 @@ return {
 		["mod_name"] = "Siemens ES64F4 (DB BR 189)",
 		["mod_desc"] = "Die Elektrolokomotive ES64F4 ist eine Lokomotivenplattform von Siemens Mobility und Mitglied der EuroSprinter-Familie. In Deutschland sind sie vor allem als Baureihe 189 der Deutschen Bahn im Einsatz. Sie sind in allen vier in Europa üblichen Bahnstromsystemen einsetzbar. ",
 
-        ["br189_menu"] = 		"BR 189 (ES64F4)",
-        ["br189_fake_menu"] = 	"BR 189 (ES64F4) Fakes",
+        ["br189_menu"] = 			"BR 189 (ES64F4)",
+        ["br189_menu_fake"] = 		"BR 189 (ES64F4) Fakes",
+        ["br189_menu_vorspann"] = 	"BR 189 (ES64F4) Vorspann",
 		["br189_desc"] = "Bei den Fahrzeugen des Typs ES64F4 handelt es sich um Streckenlokomotiven für den interoperablen Güterverkehr. Um den unterschiedlichen Anforderungen der Betreiber gerecht zu werden, wurden verschiedene Varianten realisiert.",
 
         ["br189_dc_menu"] = 		"BR 189 (ES64F4) DC",
@@ -184,12 +185,38 @@ return {
         -- Vorspann
         ["Vorspann_br189"] = "Vorspann-Loks aktivieren?",
         ["option_vorspann_br189_desc"] = "Die Vorspann-Loks (mit vorderem Panto gehoben) aktiviert werden?",
+		
+		["br189_db_name_vorspann"] = 		"Vorspann - BR 189 076 DB Cargo (2007)",
+		["br189_db2_name_vorspann"] = 		"Vorspann - BR 189 090 DB Cargo (2021)",
+		["br189_db3_name_vorspann"] = 		"Vorspann - BR 189 091 DB Railion (2005)",
+		["br189_db4_name_vorspann"] = 		"Vorspann - BR 189 025 DB Railion (2003)",
+		["br189_db5_name_vorspann"] = 		"Vorspann - BR 189 004 DB Railion (2003)",
+		["br189_db6_name_vorspann"] = 		"Vorspann - BR 189 011 DB Cargo (2003)",
+		["br189_db7_name_vorspann"] = 		"Vorspann - BR 189 029 DB Cargo - ohne Logo (2003)",
+		["br189_db8_name_vorspann"] = 		"Vorspann - BR 189 027 DB Railion Logistics (2005)",
+		["br189_db9_name_vorspann"] = 		"Vorspann - BR 189 100 DB Railion Logistics (2005)",
+		["br189_db10_name_vorspann"] = 		"Vorspann - BR 189 100 DB Railion Logistics - Hollandlatz (2007)",
+		["br189_db11_name_vorspann"] = 		"Vorspann - BR 189 008 DB Cargo (2007)",
+		["br189_db12_name_vorspann"] = 		"Vorspann - BR 189 068 DB Cargo - Hollandlatz (2010)",
+		["br189_db13_name_vorspann"] = 		"Vorspann - BR 189 042 DB Railion mit CakV (2010)",
+		["br189_db14_name_vorspann"] = 		"Vorspann - BR 189 038 DB Railion mit CakV (2010)",
+		["br189_db15_name_vorspann"] = 		"Vorspann - BR 189 045 DB Cargo - Hollandlatz (2013)",
+		["br189_db16_name_vorspann"] = 		"Vorspann - BR 189 034 DB Cargo - Hollandlatz (2013)",
+		["br189_db17_name_vorspann"] = 		"Vorspann - BR 189 060 DB Cargo (2010)",
+		["br189_db18_name_vorspann"] = 		"Vorspann - BR 189 023 DB Railion - Pro Rail (2008)",
 
-		["br189_db_name_vorspann"] = 		"Vorspann - BR 189 076 DB Cargo",
+		["br189_mrce5_name_vorspann"] = 	"Vorspann - BR 189 (ES64F4) 152 MRCE - PKP Cargo (2012)",
+		["br189_mrce7_name_vorspann"] = 	"Vorspann - BR 189 (ES64F4) 290 MRCE - ERS Railways (2011)",
+		["br189_mrce13_name_vorspann"] = 	"Vorspann - BR 189 (ES64F4) 409 MRCE - MRCE/Dispolok Logo (2009)",
 
-		["br189_mrce_name_vorspann"] = 		"Vorspann - BR 189 (ES64F4) 997 MRCE ",
+		["br189_sbb_name_vorspann"] = 		"Vorspann - BR 189 (ES64F4) 290 SBB Cargo Int - Rastattless (2017)",
+		["br189_sbb5_name_vorspann"] = 		"Vorspann - Re 474 015 SBB Cargo (2007)",
+		["br189_sbb6_name_vorspann"] = 		"Vorspann - Re 474 096 SBB Cargo (2004)",
 
-		["br189_dispo_name_vorspann"] = 	"Vorspann - BR 189 (ES64F4) 908 Dispolok (2009)",
+		["br189_beacon3_name_vorspann"] = 	"Vorspann - BR 189 (ES64F4) 285 Beacon (2023)",
+		["br189_beacon4_name_vorspann"] = 	"Vorspann - BR 189 (ES64F4) 402 Beacon (2023)",
+		
+		["br189_lomo2_name_vorspann"] = 	"Vorspann - BR 189 (ES64F4) 929 Lokomotion (20013)",
 
         -- Fake
         ["Fake_br189"] = "Fake-Loks aktivieren?",
