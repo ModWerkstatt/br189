@@ -17,18 +17,18 @@ return {
 				children = {
 					{
 						materials = { "vehicle/train/br189/beweglich_mrce.mtl", },
-						mesh = "vehicle/train/br189/dachgarten_e_lod0.msh",
+						mesh = "vehicle/train/br189/dachgarten_i_lod0.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br189/rumpf_sbb6.mtl", },
+						materials = { "vehicle/train/br189/rumpf_beacon4.mtl", },
 						mesh = "vehicle/train/br189/rumpf_lod0.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br189/rumpf_sbb6.mtl", },
+						materials = { "vehicle/train/br189/rumpf_beacon4.mtl", },
 						mesh = "vehicle/train/br189/puffer_lod0.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -105,48 +105,112 @@ return {
 						name = "bogie2",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.95, 0, 0.03, 1, },
 					},
+					--- Licht ---
+					{
+						materials = { "vehicle/train/br189/br189_white_lights.mtl", },
+						mesh = "vehicle/train/br189/licht_spitze_lod0.msh",
+						name = "Licht hinten weiß",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br189/br189_red_lights.mtl", },
+						mesh = "vehicle/train/br189/licht_schluss_lod0.msh",
+						name = "Licht hinten weiß",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br189/br189_white_lights.mtl", },
+						mesh = "vehicle/train/br189/licht_spitze_lod0.msh",
+						name = "Licht hinten weiß",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br189/br189_red_lights.mtl", },
+						mesh = "vehicle/train/br189/licht_schluss_lod0.msh",
+						name = "Licht hinten weiß",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
 					--- SA DE ---
 					{
-						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_sbb6.mtl", },
-						mesh = "vehicle/train/br189/panto_unten_ch_lod0.msh",
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_oben_it_lod0.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_sbb6.mtl", },
-						mesh = "vehicle/train/br189/panto_unten_ch2_lod0.msh",
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_unten_it_lod0.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
-					--- SA KS --
+					--- SA DE ---
 					{
-						materials = { "vehicle/train/br189/beweglich_mrce.mtl", },
-						mesh = "vehicle/train/br189/panto_unten_2_lod0.msh",
-						name = "einholm_oben",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					},
-					{
-						materials = { "vehicle/train/br189/rumpf_sbb6.mtl", },
-						mesh = "vehicle/train/br189/schleif-it_lod0.msh",
-						name = "einholm_oben",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.415, 0, 4.08, 1, },
-					},
-					--- SA IT ---
-					{
-						materials = { "vehicle/train/br189/beweglich_mrce.mtl", },
-						mesh = "vehicle/train/br189/panto_unten_3_lod0.msh",
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_unten_it2_lod0.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br189/rumpf_sbb6.mtl", },
-						mesh = "vehicle/train/br189/schleif-it_lod0.msh",
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_oben_it2_lod0.msh",
 						name = "einholm_oben",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.385, 0, 4.09, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					--- SA DE ---
+					{
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_oben_it2_lod0.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_unten_it2_lod0.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					--- SA DE ---
+					{
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_unten_it_lod0.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_oben_it_lod0.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					--- SA DE ---
+					{
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_oben_it_lod0.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_unten_it_lod0.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					--- SA DE ---
+					{
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_unten_it2_lod0.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_oben_it2_lod0.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					--- Kamera ---
 					{
-						materials = { "vehicle/train/br189/rumpf_sbb6.mtl", },
+						materials = { "vehicle/train/br189/rumpf_beacon4.mtl", },
 						mesh = "vehicle/train/br189/rumpf_kamera_lod0.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -176,14 +240,13 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br189/rumpf_sbb6.mtl", },
+						materials = { "vehicle/train/br189/rumpf_beacon4.mtl", },
 						mesh = "vehicle/train/br189/rumpf_lod1.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
-
 					{
-						materials = { "vehicle/train/br189/rumpf_sbb6.mtl", },
+						materials = { "vehicle/train/br189/rumpf_beacon4.mtl", },
 						mesh = "vehicle/train/br189/puffer_lod1.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -260,48 +323,112 @@ return {
 						name = "bogie2",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.95, 0, 0.03, 1, },
 					},
+					--- Licht ---
+					{
+						materials = { "vehicle/train/br189/br189_white_lights.mtl", },
+						mesh = "vehicle/train/br189/licht_spitze_lod0.msh",
+						name = "Licht hinten weiß",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br189/br189_red_lights.mtl", },
+						mesh = "vehicle/train/br189/licht_schluss_lod0.msh",
+						name = "Licht hinten weiß",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br189/br189_white_lights.mtl", },
+						mesh = "vehicle/train/br189/licht_spitze_lod0.msh",
+						name = "Licht hinten weiß",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br189/br189_red_lights.mtl", },
+						mesh = "vehicle/train/br189/licht_schluss_lod0.msh",
+						name = "Licht hinten weiß",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
 					--- SA DE ---
 					{
-						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_sbb6.mtl", },
-						mesh = "vehicle/train/br189/panto_unten_de2_lod1.msh",
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_oben_it_lod0.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_sbb6.mtl", },
-						mesh = "vehicle/train/br189/panto_unten_de_lod1.msh",
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_unten_it_lod0.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
-					--- SA KS --
+					--- SA DE ---
 					{
-						materials = { "vehicle/train/br189/beweglich_mrce.mtl", },
-						mesh = "vehicle/train/br189/panto_unten_2_lod1.msh",
-						name = "einholm_oben",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					},
-					{
-						materials = { "vehicle/train/br189/rumpf_sbb6.mtl", },
-						mesh = "vehicle/train/br189/schleif-it_lod1.msh",
-						name = "einholm_oben",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.415, 0, 4.08, 1, },
-					},
-					--- SA IT ---
-					{
-						materials = { "vehicle/train/br189/beweglich_mrce.mtl", },
-						mesh = "vehicle/train/br189/panto_unten_3_lod1.msh",
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_unten_it2_lod0.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br189/rumpf_sbb6.mtl", },
-						mesh = "vehicle/train/br189/schleif-it_lod1.msh",
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_oben_it2_lod0.msh",
 						name = "einholm_oben",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.385, 0, 4.09, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					--- SA DE ---
+					{
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_oben_it2_lod0.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_unten_it2_lod0.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					--- SA DE ---
+					{
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_unten_it_lod0.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_oben_it_lod0.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					--- SA DE ---
+					{
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_oben_it_lod0.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_unten_it_lod0.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					--- SA DE ---
+					{
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_unten_it2_lod0.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_oben_it2_lod0.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					--- Kamera ---
 					{
-						materials = { "vehicle/train/br189/rumpf_sbb6.mtl", },
+						materials = { "vehicle/train/br189/rumpf_beacon4.mtl", },
 						mesh = "vehicle/train/br189/rumpf_kamera_lod0.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -324,13 +451,13 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br189/rumpf_sbb6.mtl", },
+						materials = { "vehicle/train/br189/rumpf_beacon4.mtl", },
 						mesh = "vehicle/train/br189/rumpf_lod2.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br189/rumpf_sbb6.mtl", },
+						materials = { "vehicle/train/br189/rumpf_beacon4.mtl", },
 						mesh = "vehicle/train/br189/puffer_lod2.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -397,28 +524,79 @@ return {
 					},
 					--- SA DE ---
 					{
-						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_sbb6.mtl", },
-						mesh = "vehicle/train/br189/panto_unten_de_lod2.msh",
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_oben_it_lod0.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_sbb6.mtl", },
-						mesh = "vehicle/train/br189/panto_unten_de2_lod2.msh",
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_unten_it_lod0.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
-					--- SA KS --
+					--- SA DE ---
 					{
-						materials = { "vehicle/train/br189/beweglich_mrce.mtl", },
-						mesh = "vehicle/train/br189/panto_unten_2_lod2.msh",
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_unten_it2_lod0.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
-					--- SA IT ---
 					{
-						materials = { "vehicle/train/br189/beweglich_mrce.mtl", },
-						mesh = "vehicle/train/br189/panto_unten_3_lod2.msh",
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_oben_it2_lod0.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					--- SA DE ---
+					{
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_oben_it2_lod0.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_unten_it2_lod0.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					--- SA DE ---
+					{
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_unten_it_lod0.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_oben_it_lod0.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					--- SA DE ---
+					{
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_oben_it_lod0.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_unten_it_lod0.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					--- SA DE ---
+					{
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_unten_it2_lod0.msh",
+						name = "einholm_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br189/beweglich_mrce.mtl", "vehicle/train/br189/rumpf_beacon4.mtl", },
+						mesh = "vehicle/train/br189/panto_oben_it2_lod0.msh",
 						name = "einholm_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
@@ -434,7 +612,7 @@ return {
 			node = {
 				children = {
 					{
-						materials = { "vehicle/train/br189/rumpf_sbb6.mtl", },
+						materials = { "vehicle/train/br189/rumpf_beacon4.mtl", },
 						mesh = "vehicle/train/br189/rumpf_lod3.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -450,15 +628,15 @@ return {
 	},
 	metadata = {
 		availability = {
-			yearFrom = 2004,
-			yearTo = 2009,
+			yearFrom = 2023,
+			yearTo = 0000,
 		},
 		cost = {
 			price = -1,
 			priceScale = 1,
 		},
 		description = {
-			name = _("br189_sbb6_name_fake"),
+			name = _("br189_beacon4_name"),
 			description = _("br189_desc") .. _("br189_ms"),
 		},
 		emission = {
@@ -474,23 +652,41 @@ return {
 		railVehicle = {
 			configs = {
 				{
-					axles = { "vehicle/train/br189/rad_lod0.msh", },
+					axles = { "vehicle/train/br189/rad_lod0.msh", },	
+					backBackwardParts = { 19, 26, 27, }, 	-- Wendefahrt und Lok schiebt; Licht Rot vorne
+					backForwardParts = { 17,  20, 21, },	 	-- Vorwärtsfahrt und Lok/Waggon schiebt/ist am Ende; Licht rot hinten
+					frontBackwardParts = { 18, 22, 23, },	-- Wendefahrt und Lok/Waggon zieht/ist am Ende; Licht weiß hinten
+					frontForwardParts = { 16, 24, 25, },	-- Vorwärtsfahrt und Lok zieht; Licht weiß vorne
+					innerBackwardParts = { 30, 31, },		-- Wendefahrt wie Waggon in mitte des Zug;
+					innerForwardParts = { 28, 29, },		-- Vorwärtsfahrt wie Waggon in mitte des Zug;
 				},
 				{
-					axles = { "vehicle/train/br189/rad_lod1.msh", },
+					axles = { "vehicle/train/br189/rad_lod1.msh", },	
+					backBackwardParts = { 19, 26, 27, }, 	
+					backForwardParts = { 17, 20, 21, },	
+					frontBackwardParts = { 18, 22, 23, },	
+					frontForwardParts = { 16, 24, 25, },
+					innerBackwardParts = { 30, 31, },	
+					innerForwardParts = { 28, 29, },	
 				},
 				{
 					axles = { "vehicle/train/br189/rad_lod2.msh", },
+					backBackwardParts = { 20, 21, },
+					backForwardParts = { 14, 15, },
+					frontBackwardParts = { 16, 17, },
+					frontForwardParts = { 18, 19, },
+					innerBackwardParts = { 22, 23, },
+					innerForwardParts = { 24, 25, },
 				},
 			},
 			engines = {
 				{
 					power = 6400,
-					tractiveEffort = 10,
+					tractiveEffort = 300,
 					type = "ELECTRIC",
 				},
 			},
-			soundSet = { name = "train_electric_modern", },
+			soundSet = { name = "waggon_modern", },
 			topSpeed = 38.8889,
 			weight = 87,
 		},
@@ -498,17 +694,31 @@ return {
             carrier = "RAIL",
 			multipleUnitOnly = false,
             reversible = true,
-            groupFileName = "vehicle/train/br189/fake/menu_br189_fake.mdl",
+            groupFileName = "vehicle/train/br189/vorspann/menu_br189_vorspann.mdl",
         },
 		seatProvider = {
             crewModels = { "characters/era_c_driver_rail.mdl" },
 		    drivingLicense = "RAIL",
 		    seats = {
+                {
+                    animation = "driving_upright",
+					crew = true,
+                    forward = true,
+					group = 1,
+                     transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.9, -0.78, 1.7, 1, },
+                },
+                {
+                    animation = "driving_upright",
+					crew = true,
+                    forward = false,
+					group = 1,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -7.9, 0.78, 1.7, 1, },
+                },
             },
 		},
 		br189 = {
-			vorspann = false,
-			fake = true,
+			vorspann = true,
+			fake = false,
 			ms = true,
 			dc = false,
 		},
