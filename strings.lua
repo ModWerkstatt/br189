@@ -178,7 +178,7 @@ return {
 		["br189_beacon4_name"] = 	"BR 189 (ES64F4) 402 Beacon (2023)",
 		
 		["br189_lomo_name"] = 		"BR 189 (ES64F4) 904 Lokomotion (2006)",
-		["br189_lomo2_name"] = 		"BR 189 (ES64F4) 929 Lokomotion (20013)",
+		["br189_lomo2_name"] = 		"BR 189 (ES64F4) 929 Lokomotion (2013)",
 		["br189_lomo3_name"] = 		"BR 189 917 Lokomotion (2011)",
 		["br189_lomo4_name"] = 		"BR 189 918 Lokomotion (2011)",
 
@@ -216,7 +216,7 @@ return {
 		["br189_beacon3_name_vorspann"] = 	"Vorspann - BR 189 (ES64F4) 285 Beacon (2023)",
 		["br189_beacon4_name_vorspann"] = 	"Vorspann - BR 189 (ES64F4) 402 Beacon (2023)",
 		
-		["br189_lomo2_name_vorspann"] = 	"Vorspann - BR 189 (ES64F4) 929 Lokomotion (20013)",
+		["br189_lomo2_name_vorspann"] = 	"Vorspann - BR 189 (ES64F4) 929 Lokomotion (2013)",
 
         -- Fake
         ["Fake_br189"] = "Fake-Loks aktivieren?",
@@ -283,7 +283,7 @@ return {
 		["br189_beacon4_name_fake"] = 	"Fake - BR 189 (ES64F4) 402 Beacon (2023)",
 		
 		["br189_lomo_name_fake"] = 		"Fake - BR 189 (ES64F4) 904 Lokomotion (2006)",
-		["br189_lomo2_name_fake"] = 	"Fake - BR 189 (ES64F4) 929 Lokomotion (20013)",
+		["br189_lomo2_name_fake"] = 	"Fake - BR 189 (ES64F4) 929 Lokomotion (2013)",
 		["br189_lomo3_name_fake"] = 	"Fake - BR 189 917 Lokomotion (2011)",
 		["br189_lomo4_name_fake"] = 	"Fake - BR 189 918 Lokomotion (2011)",
 
