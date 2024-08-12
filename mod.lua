@@ -62,9 +62,7 @@ return {
 			if data.metadata.transportVehicle and data.metadata.br189 and data.metadata.br189.vorspann == true then
 				data.metadata.availability.yearFrom = 1
 				data.metadata.availability.yearTo = 2
-				--return false
 			end
-			--return true
 			return data
 		end
 
@@ -103,7 +101,6 @@ return {
 		if modParams[getCurrentModId()] ~= nil then
 			local params = modParams[getCurrentModId()]
 			if params["br189_vorspann"] == 0 then
-				--addFileFilter("model/transportVehicle", vorspannFilter)
 				addModifier("loadModel", vorspannFilter)
 			end
 			if params["br189_fake"] == 0 then
@@ -120,7 +117,6 @@ return {
 			end
 
 		else
-			--addFileFilter("model/transportVehicle", vorspannFilter)
 			addModifier("loadModel", fakeFilter)
 			addModifier("loadModel", msFilter)
 			addModifier("loadModel", dcFilter)
