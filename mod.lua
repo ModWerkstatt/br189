@@ -52,6 +52,27 @@ return {
 				tooltip = _("option_ac_br189_desc"),
 				defaultIndex = 1,
 			},
+			{
+				key = "br189_db",
+				name = _("db_br189"),
+				values = { "No", "Yes", },
+				tooltip = _("option_db_br189_desc"),
+				defaultIndex = 1,
+			},
+			{
+				key = "br189_mrce",
+				name = _("mrce_br189"),
+				values = { "No", "Yes", },
+				tooltip = _("option_mrce_br189_desc"),
+				defaultIndex = 1,
+			},
+			{
+				key = "br189_sbb",
+				name = _("sbb_br189"),
+				values = { "No", "Yes", },
+				tooltip = _("option_sbb_br189_desc"),
+				defaultIndex = 1,
+			},
         },
 	},
 	options = {
@@ -97,6 +118,27 @@ return {
 			end
 			return data
 		end
+		local dbFilter = function(fileName, data)
+			if data.metadata.transportVehicle and data.metadata.br189 and data.metadata.br189.db == true then
+				data.metadata.availability.yearFrom = 1
+				data.metadata.availability.yearTo = 2
+			end
+			return data
+		end
+		local mrceFilter = function(fileName, data)
+			if data.metadata.transportVehicle and data.metadata.br189 and data.metadata.br189.mrce == true then
+				data.metadata.availability.yearFrom = 1
+				data.metadata.availability.yearTo = 2
+			end
+			return data
+		end
+		local sbbFilter = function(fileName, data)
+			if data.metadata.transportVehicle and data.metadata.br189 and data.metadata.br189.sbb == true then
+				data.metadata.availability.yearFrom = 1
+				data.metadata.availability.yearTo = 2
+			end
+			return data
+		end
 
 		if modParams[getCurrentModId()] ~= nil then
 			local params = modParams[getCurrentModId()]
@@ -115,12 +157,24 @@ return {
 			if params["br189_ac"] == 0 then
 				addModifier("loadModel", acFilter)
 			end
+			if params["br189_db"] == 0 then
+				addModifier("loadModel", dbFilter)
+			end
+			if params["br189_mrce"] == 0 then
+				addModifier("loadModel", mrceFilter)
+			end
+			if params["br189_sbb"] == 0 then
+				addModifier("loadModel", sbbFilter)
+			end
 
 		else
 			addModifier("loadModel", fakeFilter)
 			addModifier("loadModel", msFilter)
 			addModifier("loadModel", dcFilter)
 			addModifier("loadModel", acFilter)
+			addModifier("loadModel", dbFilter)
+			addModifier("loadModel", mrceFilter)
+			addModifier("loadModel", sbbFilter)
 		end
 	end
 }
