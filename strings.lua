@@ -16,10 +16,10 @@ return {
         ["br189_ac_menu"] = 		"Class 189 AC",
         ["br189_ac_fake_menu"] = 	"Class 189 AC Fakes",
 
-		["br189_ms"] = 	"Class 189 as multi-system locomotive with 4 pantographs",
-		["br189_ms2"] = "Class 189 as multi-system locomotive with 2 german pantographs and 2 and 2 foreign pantographs",
-		["br189_dc"] = 	"Class 189 as DC locomotive with 2 pantographs.",
-		["br189_ac"] = 	"Class 189 as AC locomotive with 2 pantographs for Germany",
+		["br189_ms"] = 	" Class 189 as multi-system locomotive with 4 pantographs",
+		["br189_ms2"] = " Class 189 as multi-system locomotive with 2 german pantographs and 2 and 2 foreign pantographs",
+		["br189_dc"] = 	" Class 189 as DC locomotive with 2 pantographs.",
+		["br189_ac"] = 	" Class 189 as AC locomotive with 2 pantographs for Germany",
 
 		["ms_br189"] = "Activate class 189 multi-system?",
 		["option_ms_br189_desc"] = "Should the Class 189 be activated with multi-system equipment?",
@@ -136,10 +136,10 @@ return {
         ["br189_ac_menu"] = 		"BR 189 AC",
         ["br189_ac_fake_menu"] = 	"BR 189 AC Fakes",
 
-		["br189_ms"] = 	"BR 189 als Mehrsystem-Lok mit 4 Stromabnehmern",
-		["br189_ms2"] = "BR 189 als Mehrsystem-Lok mit 2 deutschen Stromabnehmern und 2 ausländischen Stromabnehmer",
-		["br189_dc"] = 	"BR 189 als Gleichstrom-Lok mit 2 Stromabnehmern.",
-		["br189_ac"] = 	"BR 189 als Wechselstrom-Lok mit 2 Stromabnehmern für Deutschland",
+		["br189_ms"] = 	" BR 189 als Mehrsystem-Lok mit 4 Stromabnehmern",
+		["br189_ms2"] = " BR 189 als Mehrsystem-Lok mit 2 deutschen Stromabnehmern und 2 ausländischen Stromabnehmer",
+		["br189_dc"] = 	" BR 189 als Gleichstrom-Lok mit 2 Stromabnehmern.",
+		["br189_ac"] = 	" BR 189 als Wechselstrom-Lok mit 2 Stromabnehmern für Deutschland",
 
 		["ms_br189"] = "BR 189 Mehrsystem aktivieren?",
 		["option_ms_br189_desc"] = "Sollen die BR 189 mit Mehrsystemausrüstung aktiviert werden?",
