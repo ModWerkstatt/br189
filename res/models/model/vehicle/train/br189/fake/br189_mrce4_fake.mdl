@@ -472,7 +472,7 @@ return {
 			priceScale = 1,
 		},
 		description = {
-			name = _("br189_mrce3_name_fake"),
+			name = _("br189_mrce4_name_fake"),
 			description = _("br189_desc") .. _("br189_ms"),
 		},
 		emission = {
